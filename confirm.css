@@ -1,0 +1,35 @@
+/* Define a style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light grey background */
+    color: #343a40; /* Dark grey text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Style for the main heading */
+h1 {
+    color: #795548; /* Coffee brown color */
+    font-size: 3.5em;
+    margin: 20px 0;
+}
+
+/* Style for the subheading */
+h2 {
+    color: #6c757d; /* Muted grey */
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+/* Add some padding and border to the main container */
+body {
+    border: 1px solid #343a40; /* Dark grey border */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background */
+}

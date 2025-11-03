@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Coffee Shop </title>
+        <link rel = "stylesheet" href = "order.css" />
+    </head>
+    <body>
+        <div class ="order-container"> 
+         <h1> Q.Cafe </h1>
+         <table>
+        <tr> 
+        <th> No of Orders </th>
+        <td> <input type="number" id="number" /> </td>
+         </tr>
+         <tr>
+            <th>Size of Cup </th>
+            <td> <input type="text" id="text" /> </td>
+         </tr>
+         <tr>
+            <th>Sugar level</th>
+            <td> <input type="text" id="text" /> </td>
+         </tr>
+         </table>
+         <div class="order-btn" onclick="handleOrderClick()">
+            <span> Confirm Order </span>
+        </div>
+        <script>
+            function handleOrderClick() {
+                window.location.href = "customer.html";
+            }
+        </script>
+    </div>
+    </body>
+    </head>
+</html>
